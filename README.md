@@ -1,16 +1,9 @@
-# React + Vite
+## Note for Evaluators
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+During the development and testing phase, the frontend application initially ran on Vite's default development port (`5173`). Some screenshots and intermediate testing evidence were captured during that phase.
 
-Currently, two official plugins are available:
+Before final submission, the project configuration was updated to match the required submission environment, and the frontend was configured to run on:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+`http://localhost:3000`
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This final configuration is available in the latest repository commit.
